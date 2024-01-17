@@ -8,8 +8,8 @@ header {
     margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 700px;
-    margin-bottom: 140px;
+    height: 70vh;
+    margin-bottom: 15vh;
 }
 
 header h1 {
