@@ -400,12 +400,12 @@ section h1 {
     }
     
     .text-top {
-        width: 40vw;
+        width: 45vw;
         grid-row: 1;
     }
     
     .text-bottom {
-        width: 40vw;
+        width: 45vw;
         text-align: left;
         margin-top: 0px;
         grid-row: 2;
