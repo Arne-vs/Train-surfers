@@ -8,7 +8,7 @@ header {
     margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 70vh;
+    height: 700px;
     margin-bottom: 140px;
 }
 
