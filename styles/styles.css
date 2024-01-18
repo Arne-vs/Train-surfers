@@ -23,7 +23,7 @@ header {
   }
   
 .logo img{
-    width: 50%;
+    width: 20%;
 }
 
   .nav .container{
@@ -100,20 +100,19 @@ header h2 {
     text-align: right;
 }
 
+.bio_foto {
+  text-align: left;
+  margin-left: -64px;
+
+}
+
+.bio_foto img{
+width: 100%;
+
+}
+
 .header_foto img{
     height: 100vh;
-}
-
-.app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 64px;
-}
-
-.app h1 {
-    font-size: 40pt;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 700;
 }
 
 p {
@@ -123,15 +122,6 @@ p {
     margin-top: 24px;
 }
 
-.text-left {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-}
-
-.green {
-    color: #66DC95;
-}
 
 section h1 {
     font-size: 40pt;
@@ -139,40 +129,10 @@ section h1 {
     font-weight: 700;
 }
 
-.check-list {
-    margin-top: 24px;
-    margin-bottom: 140px;
-  }
-  
-  .check-list li {
-    position: relative;
-    list-style-type: none;
-    padding-left: 4rem;
-    margin-bottom: 2rem;
-    font-size: 24pt;
-    line-height: 24pt;
-    font-family: 'Fira Sans', sans-serif;
-
-  }
-  
-  .check-list li:before {
-      content: '';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: -0.7rem;
-      width: 1rem;
-      height: 2rem;
-      border-width: 0 6px 6px 0;
-      border-style: solid;
-      border-color: #66DC95;
-      transform-origin: bottom left;
-      transform: rotate(45deg);
-  }
   
   #bio {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
     margin-bottom: 15vh;
   }
@@ -235,6 +195,77 @@ section h1 {
     'wght' 700,
     'GRAD' 200,
     'opsz' 48
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 15vh;
+  }
+
+  .works h2 {
+    font-size: 24pt;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+
+  .works a{
+    text-decoration: none;
+    color: #222;
+  }
+
+  .works img{
+    width: 100%;
+  }
+
+  #trainsurfers {
+    background-image: url(../images/mockupnew.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+
+  #strava {
+    background-image: url(../images/stravamockup.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+
+  #verlorentijd {
+    background-image: url(../images/verlorentijd.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+
+  #journeyofemotions {
+    background-image: url(../images/tumb.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+
+  #socialjourney {
+    background-image: url(../images/SocialJourney.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+
+  #reedham {
+    background-image: url(../images/Reedham.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
   }
   
   @media only screen and (max-width: 1200px) {
